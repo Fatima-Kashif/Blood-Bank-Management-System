@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    border: border-box;
+    color:  rgb(242, 235, 235);
+    font-family: Arial;
+}
+body {
+    overflow-x: hidden; 
+    background-color: #F2F2EB;
+}
+.head{
+    background-color:  rgb(219, 9, 9);
+    display: flex;
+    width: 100%;
+    height: 40px;
+    padding: 10px 10px 10px 10px;
+    justify-content: space-evenly;
+    font-family: 'Arial';
+}
+.head1{
+    width: 80%;
+    padding-top: 12px;
+    display: flex;
+    font-size: 1.15rem;
+}
+.head2{
+    padding-top: 12px;
+    padding-left: 0px;
+    padding-right: 22px;
+    display: flex;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.head3{
+   padding-right: 10px;
+}
+i{
+    padding-left: 10px;
+    padding-right: 10px; 
+   
+}
+.head2:hover{
+    font-size: 1.2rem;
+}
+.heropart{
+    display: flex;
+    height: 600px;
+}
+.hero{
+    width: 60%;
+    height: 600px;
+    margin-top: 10px;
+    margin-left: 20px;
+    object-fit: cover;
+    overflow: hidden;
+    
+}
+.heropic{
+    background-image: url("pic2.png");
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+.contents{
+    height: 550px;
+    margin-top: 200px;
+}
+.heading1{
+    font-size: 3.5rem;
+    color: rgb(225, 27, 27);
+    display: inline-block;
+    font-family: Montserrat;
+}
+.heading2{
+    font-size: 3.5rem;
+    color:  rgb(225, 27, 27);
+    padding-left:25px ;
+    font-family: Montserrat;
+}
+.heading3{
+    font-size: 4.2rem;
+    font-weight: 800;
+    color: rgb(214, 11, 11);
+    padding-left:26px ;
+    display: inline-block;
+    font-family: Montserrat;
+}
+.foot{
+    display: flex;
+}
+.footer{
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+
+.about1{
+    color: rgb(214, 11, 11);
+    font-family: Montserrat;
+    padding: 20px 20px 20px 10px;
+}
+.about2{
+    color: black;
+    padding: 0px 20px 30px 10px;
+
+}
+.mission1{
+    color: rgb(214, 11, 11);
+    font-family: Montserrat;
+    padding: 20px 20px 20px 10px;
+}
+.mission2{
+    color: black;
+    padding: 0px 20px 30px 10px;
+}
+.join1{
+    color: rgb(214, 11, 11);
+    font-family: Montserrat;
+    padding: 20px 20px 20px 10px;
+}
+.join2{
+    color: black;
+    padding: 0px 20px 30px 10px;
+
+}
+.foot-pic{
+    width: 30%;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    object-fit: cover;
+    overflow: hidden;
+    
+}
+.pic{
+    background-image: url("pic4.jpg");
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+.end{
+    color: rgb(214, 11, 11);
+    font-family: Montserrat;
+   
+}
+.endpart{
+    margin-left: 250px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.horizon{
+    width: 95%;
+    height: 0px;
+    color: rgb(192, 183, 183);
+    margin: 0 auto;
+}
